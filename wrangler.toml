@@ -1,26 +1,26 @@
-name = "telkomsel" # todo
+name = "tel" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "tsel.aghill.my.id"
+pattern = "tel.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "portal-minigames.byu.id.tsel.aghill.my.id"
+pattern = "portal-minigames.byu.id.tel.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "api.byu.id.tsel.aghill.my.id"
+pattern = "api.byu.id.tel.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "cmsbt.byu.id.tsel.aghill.my.id"
+pattern = "cmsbt.byu.id.tel.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "bsd-cmsbt.byu.id.tsel.aghill.my.id"
+pattern = "bsd-cmsbt.byu.id.tel.aghill.my.id"
 custom_domain = true
 [[routes]]
-pattern = "tbs-cmsbt.byu.id.tsel.aghill.my.id"
+pattern = "tbs-cmsbt.byu.id.tel.aghill.my.id"
 custom_domain = true
 
 [vars]
